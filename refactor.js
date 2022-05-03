@@ -115,7 +115,7 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 
-
+const reverseStr = function(str) {return str.split('').reverse().join('')};
 
 // -----------------------------------------------
 

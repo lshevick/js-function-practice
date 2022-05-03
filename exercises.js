@@ -38,6 +38,20 @@
   // Write a function rovarspraket() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
   // ---------------------
 
+  const rovarspraket = function(string) {
+    let s = string.toLowerCase();
+    let vowels = ["a", "e", "i", "o", "u", " "];
+    let y = "";
+    for (let i = 0; i < string.length; i++) {
+       let current = s.charAt(i); 
+      if (vowels.indexOf(current) != -1) {
+          y = (y + (current));
+      } else {
+          y = (y + (current + "o" + current));
+      }
+    }
+    return y;
+  }
 
 
   // ---------------------

@@ -269,7 +269,11 @@ var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
 
+const addNumbers = (numberA, numberB) => {
+  return numberA + numberB;
+};
 
+const twoPlusTwo = addNumbers(2,2);
 
 // -----------------------------------------------
 

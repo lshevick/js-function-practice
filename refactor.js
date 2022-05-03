@@ -90,6 +90,9 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+//The answer is [c] becuase there is no Timeout set 
+//the letter z, while there is a Timeout set for the
+// letter y.
 
 // -----------------------------------------------
 

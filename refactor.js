@@ -238,7 +238,17 @@ var decreaseScore = function() {
 
 // Put your answer below -------------------------
 
+(function() {
+  var score = 0;
 
+var increaseScore = function() {
+  score++;
+};
+
+var decreaseScore = function() {
+  score--;
+};
+})();
 
 // -----------------------------------------------
 

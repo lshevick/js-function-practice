@@ -1,23 +1,23 @@
-(function() {
+(function () {
   'use strict';
 
   // ---------------------
   // Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
   // ---------------------
 
-const max = function(num1, num2) {
-  if (num1 > num2) {
-    return num1;
-  } else {
-    return num2;
+  const max = function (num1, num2) {
+    if (num1 > num2) {
+      return num1;
+    } else {
+      return num2;
+    }
   }
-}
 
   // ---------------------
   // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
   // ---------------------
 
-  const maxOfThree = function(num1, num2, num3) {
+  const maxOfThree = function (num1, num2, num3) {
     return Math.max(num1, num2, num3);
   }
 
@@ -26,14 +26,13 @@ const max = function(num1, num2) {
   // Define a function isVowel() that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
   // ---------------------
 
-  const isVowel = function(c) {
-    if (c == 'a'||'e'||'i'||'o'||'u') {
+  const isVowel = function (c) {
+    if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u') {
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
-console.log(isVowel('b'));
+
 
   // ---------------------
   // Write a function rovarspraket() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
@@ -94,9 +93,9 @@ console.log(isVowel('b'));
 
   console.assert(reverse('jag testar') === 'ratset gaj', 'ERROR function reverse');
 
-  console.assert(findLongestWord(['hello', 'world', 'does','anyone', 'really', 'know', 'what', 'time', 'it', 'is']) === 6, 'ERROR function findLongestWord');
+  console.assert(findLongestWord(['hello', 'world', 'does', 'anyone', 'really', 'know', 'what', 'time', 'it', 'is']) === 6, 'ERROR function findLongestWord');
 
-  console.assert(filterLongWords(['hello', 'world', 'does','anyone', 'really', 'know', 'what', 'time', 'it', 'is'], 4).length === 4, 'ERROR function filterLongWords');
+  console.assert(filterLongWords(['hello', 'world', 'does', 'anyone', 'really', 'know', 'what', 'time', 'it', 'is'], 4).length === 4, 'ERROR function filterLongWords');
 
   console.assert(charFreq('abbabcbdbabdbdbabababcbcbab').a === 7);
 

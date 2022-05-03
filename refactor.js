@@ -33,6 +33,9 @@ function doSomethingCool() {
 
 // Put your answer below -------------------------
 
+const doSomethingCool = function() {
+  console.log("Something Cool!");
+}
 
 // -----------------------------------------------
 
@@ -52,6 +55,7 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
+
 
 
 // -----------------------------------------------

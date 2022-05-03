@@ -304,12 +304,8 @@ var accelerate = function(amount) {
 
 var speed = 0;
 
-var accelerate = function(amount) {
-  if (amount) {
-    return speed += amount;
-  } else {
-    return 'That is not a good number!';
-  }
+var accelerate = function(amount = 1) {
+return speed += amount;
 
 };
 

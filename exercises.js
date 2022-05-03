@@ -73,7 +73,12 @@
   // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
   // ---------------------
 
-
+const reverse = function(string) {
+    let strSplit = string.split('');
+    let strReverse = strSplit.reverse();
+    let strJoin = strReverse.join('');
+    return strJoin;
+}
 
   // ---------------------
   // Define a function findLongestWord() that takes an array of words and returns the length of the longest one.

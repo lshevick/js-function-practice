@@ -299,7 +299,19 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+// it sets speed to NaN because there is not a option 
+// for the function to return when no parameter is present
 
+var speed = 0;
+
+var accelerate = function(amount) {
+  if (amount) {
+    return speed += amount;
+  } else {
+    return 'That is not a good number!';
+  }
+
+};
 
 
 // -----------------------------------------------

@@ -205,6 +205,11 @@ var callTenTimes = function(callback) {
 
 // Put your answer below -------------------------
 
+let callNTimes = function (callback, n) {
+  for (let i = 0; i < n; i++) {
+    callback()
+  }
+}
 
 // -----------------------------------------------
 

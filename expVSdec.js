@@ -1,3 +1,4 @@
+(function () {
 // The differences between Javascript expressions and declarations
 // A JS expression is written like this:
 const square = function(num) {
@@ -28,4 +29,6 @@ array.map(item => parseInt(item));
 // be more flexible. You can take an expression and use it inside of
 // another function without the danger of it being referenced outside
 // of that function.
-
+// Additionally you can only use Javascript closures with function 
+//expressions.
+})();

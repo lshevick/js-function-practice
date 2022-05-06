@@ -56,11 +56,11 @@ setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
 
-const sayHi = function() {
+(function() {
   alert("Hello World!");
-}
-
-setTimeout(sayHi, 2000);
+  
+  setTimeout(sayHi, 2000);
+});
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
